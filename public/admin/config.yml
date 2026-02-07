@@ -11,7 +11,7 @@ public_folder: "/uploads"
 collections:
   - name: "homepage"
     label: "Homepage"
-    file: "src/content/homepage.json"
+    file: "src/content/homepage/homepage.json"
     fields:
       - { label: "Hero Title", name: "heroTitle", widget: "string" }
       - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
