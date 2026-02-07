@@ -6,8 +6,6 @@ contractor-site/
 ├─ src/
 │  ├─ content/
 │  │  ├─ homepage.json
-│  │  ├─ gallery/        ← CMS creates JSON files here
-│  │  └─ blog/           ← CMS creates Markdown files here
 │  ├─ pages/
 │  │  ├─ index.astro
 │  │  ├─ gallery.astro
