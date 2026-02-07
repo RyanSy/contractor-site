@@ -1,0 +1,33 @@
+{
+  "heroTitle": "Quality General Contracting You Can Trust",
+  "heroSubtitle": "From small repairs to full-scale renovations, we deliver craftsmanship, communication, and projects finished on time.",
+  "heroImage": "/uploads/hero.jpg",
+  "aboutTitle": "About Our Company",
+  "aboutBody": "We are a full-service general contracting company serving residential and commercial clients. Our team combines decades of field experience with a commitment to clear communication, clean job sites, and reliable scheduling.",
+  "servicesTitle": "Our Services",
+  "servicesIntro": "We handle projects of all sizes, from quick fixes to full build-outs.",
+  "services": [
+    {
+      "name": "Home Renovations",
+      "description": "Interior and exterior upgrades, additions, and full-home remodels tailored to your space and budget."
+    },
+    {
+      "name": "Kitchen & Bathroom Remodeling",
+      "description": "High-impact upgrades with modern finishes, efficient layouts, and durable materials."
+    },
+    {
+      "name": "Commercial Build-outs",
+      "description": "Office, retail, and light industrial spaces built to code and ready for business."
+    },
+    {
+      "name": "Roofing & Exterior Work",
+      "description": "Roof replacement, siding, windows, and exterior repairs to protect your property."
+    },
+    {
+      "name": "Repairs & Maintenance",
+      "description": "Punch lists, small repairs, and ongoing maintenance to keep your property in top shape."
+    }
+  ],
+  "contactTitle": "Request a Quote",
+  "contactSubtitle": "Tell us about your project and we’ll follow up with a clear, detailed estimate."
+}
