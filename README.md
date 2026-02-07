@@ -11,9 +11,6 @@ contractor-site/
 │  ├─ pages/
 │  │  ├─ index.astro
 │  │  ├─ gallery.astro
-│  │  ├─ blog/
-│  │  │  ├─ index.astro
-│  │  │  └─ [slug].astro
 │  │  └─ thank-you.astro
 │  └─ styles/
 │     └─ global.css
