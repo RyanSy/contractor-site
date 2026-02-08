@@ -11,20 +11,23 @@ public_folder: "/uploads"
 collections:
   - name: "homepage"
     label: "Homepage"
-    file: "src/content/homepage/homepage.json"
-    fields:
-      - { label: "Hero Title", name: "heroTitle", widget: "string" }
-      - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
-      - { label: "Hero Image", name: "heroImage", widget: "image", required: false }
-      - { label: "About Title", name: "aboutTitle", widget: "string" }
-      - { label: "About Body", name: "aboutBody", widget: "text" }
-      - { label: "Services Title", name: "servicesTitle", widget: "string" }
-      - { label: "Services Intro", name: "servicesIntro", widget: "text" }
-      - label: "Services"
-        name: "services"
-        widget: "list"
+    files:
+      - file: "src/content/homepage/homepage.json"
+        label: "Homepage Content"
+        name: "homepage"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-      - { label: "Contact Title", name: "contactTitle", widget: "string" }
-      - { label: "Contact Subtitle", name: "contactSubtitle", widget: "text" }
+          - { label: "Hero Title", name: "heroTitle", widget: "string" }
+          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Hero Image", name: "heroImage", widget: "image", required: false }
+          - { label: "About Title", name: "aboutTitle", widget: "string" }
+          - { label: "About Body", name: "aboutBody", widget: "text" }
+          - { label: "Services Title", name: "servicesTitle", widget: "string" }
+          - { label: "Services Intro", name: "servicesIntro", widget: "text" }
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+          - { label: "Contact Title", name: "contactTitle", widget: "string" }
+          - { label: "Contact Subtitle", name: "contactSubtitle", widget: "text" }
