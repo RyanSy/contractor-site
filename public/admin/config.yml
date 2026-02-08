@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: your-github-username/contractor-site
+  repo: ryansy/contractor-site
   branch: main
   auth_type: implicit
-  app_id: your_github_oauth_app_client_id
+  app_id: Iv23liYqGHX1ag1F6eI4
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
