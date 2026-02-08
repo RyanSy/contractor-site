@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: ryansy/contractor-site
-  branch: main
+  branch: master
   auth_type: implicit
   app_id: Iv23liYqGHX1ag1F6eI4
 
